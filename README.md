@@ -1,1 +1,8 @@
 # NLW--EXPERTS
+
+## TECNOLOGIAS UTILIZADAS
+
+-Html
+-Css
+-JavaScript
+-GitHub
