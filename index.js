@@ -1,83 +1,74 @@
-
 const perguntas = [
     {
-      pergunta: "Qual é o maior planeta do sistema solar?",
-      respostas: ["Júpiter",
-                  "Marte",
-                  "Vênus"
-                 ],
-      correta: 0
-    },
-    {
-      pergunta: "Quem escreveu 'Dom Quixote'?",
-      respostas: ["Miguel de Cervantes",
-                  "William Shakespeare",
-                  "Gustave Flaubert"
-                 ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o metal mais abundante na crosta terrestre?",
-      respostas: ["Ferro",
-                  "Alumínio",
-                  "Ouro"
-                 ],
+      pergunta: "Qual é a função usada para imprimir algo no console?",
+      respostas: ["print()",
+                  "log()",
+                  "console()"
+                  ],
       correta: 1
     },
     {
-      pergunta: "Qual é o país mais populoso do mundo?",
-      respostas: ["China",
-                  "Índia",
-                  "Estados Unidos"
-                 ],
+      pergunta: "Qual é o operador usado para comparar valores e tipos em JavaScript?",
+      respostas: ["==",
+                  "===",
+                  "!="
+                  ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
+      respostas: ["5",
+                  "32",
+                  "Erro"],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o método utilizado para remover o último elemento de um array em JavaScript?",
+      respostas: ["pop()",
+                  "push()",
+                  "remove()"],
       correta: 0
     },
     {
-      pergunta: "Qual é o maior oceano do mundo?",
-      respostas: ["Pacífico",
-                  "Atlântico",
-                  "Índico"
-                 ],
+      pergunta: "Qual é a palavra-chave usada para declarar variáveis em JavaScript?",
+      respostas: ["var",
+                  "let",
+                  "const"],
+      correta: 2
+    },
+    {
+      pergunta: "Qual método JavaScript é usado para selecionar um elemento pelo seu ID?",
+      respostas: ["getElementById()",
+                  "querySelector()",
+                  "getById()"],
       correta: 0
     },
     {
-      pergunta: "Quem pintou a 'Mona Lisa'?",
-      respostas: ["Leonardo da Vinci",
-                  "Pablo Picasso",
-                  "Vincent van Gogh"
-                 ],
+      pergunta: "O que o método 'addEventListener()' faz em JavaScript?",
+      respostas: ["Remove um evento",
+                  "Adiciona um evento",
+                  "Substitui um evento"],
+      correta: 1
+    },
+    {
+      pergunta: "Qual método JavaScript é usado para arredondar um número para o inteiro mais próximo?",
+      respostas: ["Math.round()",
+                  "Math.ceil()",
+                  "Math.floor()"],
       correta: 0
     },
     {
-      pergunta: "Qual é a capital do Canadá?",
-      respostas: ["Ottawa",
-                  "Toronto",
-                  "Montreal"
-                 ],
+      pergunta: "Qual é a sintaxe correta para um comentário de linha única em JavaScript?",
+      respostas: ["// Este é um comentário",
+                  "' Este é um comentário",
+                  "<!-- Este é um comentário -->"],
       correta: 0
     },
     {
-      pergunta: "Em que ano começou a Primeira Guerra Mundial?",
-      respostas: ["1914",
-                  "1918",
-                  "1939"
-                 ],
-      correta: 0
-    },
-    {
-      pergunta: "Quem foi o primeiro homem a pisar na lua?",
-      respostas: ["Neil Armstrong",
-                  "Buzz Aldrin",
-                  "Yuri Gagarin"
-                 ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a capital da Austrália?",
-      respostas: ["Camberra",
-                  "Sydney",
-                  "Melbourne"
-                 ],
+      pergunta: "Qual é a função usada para converter uma string em um número em JavaScript?",
+      respostas: ["parseInt()",
+                  "convertToNumber()",
+                  "toNumber()"],
       correta: 0
     }
   ];
